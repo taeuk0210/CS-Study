@@ -18,8 +18,8 @@ public class ArrayListTest {
         Integer data = 7;
         list.remove(data);
         list.print();
-        System.out.print("1~10까지 삽입 : ");
-        for (int i=1; i<=10; i++) {
+        System.out.print("7~10까지 삽입 : ");
+        for (int i=7; i<=10; i++) {
             list.add(i);
         }
         list.print();
@@ -27,7 +27,7 @@ public class ArrayListTest {
         System.out.println(list.size());
         System.out.print("index 7 조회 : ");
         System.out.println(list.get(7));
-        System.out.print("value 7 삭제 : ");
+        System.out.print("value 7 조회 : ");
         System.out.println(list.find(data));
         System.out.print("마지막 값 추출 : ");
         System.out.println(list.pop());

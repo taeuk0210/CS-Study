@@ -8,9 +8,9 @@ public class LinkedList<T> {
             this.t = t;
         }
     }
-    private Node head;
-    private Node tail;
-    private int size;
+    Node head;
+    Node tail;
+    int size;
 
     public LinkedList() {
         head = null;

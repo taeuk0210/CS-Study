@@ -1,11 +1,12 @@
 package test;
 
+import list.DoubleLinkedList;
 import list.LinkedList;
 
-public class LinkedListTest {
+public class DoubleLinkedListTest {
     public void run() {
-        LinkedList<Integer> list = new LinkedList<>();
-        System.out.println("[LinkedList]");
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        System.out.println("[DoubleLinkedList]");
         System.out.print("1~10까지 삽입 : ");
         for (int i=1; i<=10; i++) {
             list.add(i);
